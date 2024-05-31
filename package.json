@@ -1,0 +1,21 @@
+{
+  "name": "doc_software",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c jsdoc.json",
+    "deploy": "gh-pages -d documentacion"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "docdash": "^2.0.2",
+    "jsdoc": "^4.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
