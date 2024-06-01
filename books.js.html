@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>books.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Auth.html">Auth</a><ul class='methods'><li data-type='method'><a href="Auth.html#.register">register</a></li><li data-type='method'><a href="Auth.html#.signin">signin</a></li></ul></li><li><a href="BookBuilder.html">BookBuilder</a><ul class='methods'><li data-type='method'><a href="BookBuilder.html#build">build</a></li><li data-type='method'><a href="BookBuilder.html#setAlternateTitle">setAlternateTitle</a></li><li data-type='method'><a href="BookBuilder.html#setAuthor">setAuthor</a></li><li data-type='method'><a href="BookBuilder.html#setBookCountAvailable">setBookCountAvailable</a></li><li data-type='method'><a href="BookBuilder.html#setBookName">setBookName</a></li><li data-type='method'><a href="BookBuilder.html#setBookStatus">setBookStatus</a></li><li data-type='method'><a href="BookBuilder.html#setCategories">setCategories</a></li><li data-type='method'><a href="BookBuilder.html#setLanguage">setLanguage</a></li><li data-type='method'><a href="BookBuilder.html#setPublisher">setPublisher</a></li><li data-type='method'><a href="BookBuilder.html#setTransactions">setTransactions</a></li></ul></li><li><a href="BookTransactionBuilder.html">BookTransactionBuilder</a><ul class='methods'><li data-type='method'><a href="BookTransactionBuilder.html#build">build</a></li><li data-type='method'><a href="BookTransactionBuilder.html#setBookId">setBookId</a></li><li data-type='method'><a href="BookTransactionBuilder.html#setBookName">setBookName</a></li><li data-type='method'><a href="BookTransactionBuilder.html#setBorrowerId">setBorrowerId</a></li><li data-type='method'><a href="BookTransactionBuilder.html#setBorrowerName">setBorrowerName</a></li><li data-type='method'><a href="BookTransactionBuilder.html#setFromDate">setFromDate</a></li><li data-type='method'><a href="BookTransactionBuilder.html#setReturnDate">setReturnDate</a></li><li data-type='method'><a href="BookTransactionBuilder.html#setToDate">setToDate</a></li><li data-type='method'><a href="BookTransactionBuilder.html#setTransactionStatus">setTransactionStatus</a></li><li data-type='method'><a href="BookTransactionBuilder.html#setTransactionType">setTransactionType</a></li></ul></li><li><a href="Books.html">Books</a><ul class='methods'><li data-type='method'><a href="Books.html#.addBook">addBook</a></li><li data-type='method'><a href="Books.html#.getAllBooks">getAllBooks</a></li><li data-type='method'><a href="Books.html#.getBookById">getBookById</a></li><li data-type='method'><a href="Books.html#.getBooksByCategory">getBooksByCategory</a></li><li data-type='method'><a href="Books.html#.removeBook">removeBook</a></li><li data-type='method'><a href="Books.html#.updateBook">updateBook</a></li></ul></li><li><a href="Categories.html">Categories</a><ul class='methods'><li data-type='method'><a href="Categories.html#.addCategory">addCategory</a></li><li data-type='method'><a href="Categories.html#.getAllCategories">getAllCategories</a></li></ul></li><li><a href="Transactions.html">Transactions</a><ul class='methods'><li data-type='method'><a href="Transactions.html#.addTransaction">addTransaction</a></li><li data-type='method'><a href="Transactions.html#.getAllTransactions">getAllTransactions</a></li><li data-type='method'><a href="Transactions.html#.removeTransaction">removeTransaction</a></li><li data-type='method'><a href="Transactions.html#.updateTransaction">updateTransaction</a></li></ul></li><li><a href="UserBuilder.html">UserBuilder</a><ul class='methods'><li data-type='method'><a href="UserBuilder.html#build">build</a></li><li data-type='method'><a href="UserBuilder.html#setActiveTransactions">setActiveTransactions</a></li><li data-type='method'><a href="UserBuilder.html#setAddress">setAddress</a></li><li data-type='method'><a href="UserBuilder.html#setAdmissionId">setAdmissionId</a></li><li data-type='method'><a href="UserBuilder.html#setAge">setAge</a></li><li data-type='method'><a href="UserBuilder.html#setDOB">setDOB</a></li><li data-type='method'><a href="UserBuilder.html#setEmail">setEmail</a></li><li data-type='method'><a href="UserBuilder.html#setEmployeeId">setEmployeeId</a></li><li data-type='method'><a href="UserBuilder.html#setGender">setGender</a></li><li data-type='method'><a href="UserBuilder.html#setIsAdmin">setIsAdmin</a></li><li data-type='method'><a href="UserBuilder.html#setMobileNumber">setMobileNumber</a></li><li data-type='method'><a href="UserBuilder.html#setPassword">setPassword</a></li><li data-type='method'><a href="UserBuilder.html#setPhoto">setPhoto</a></li><li data-type='method'><a href="UserBuilder.html#setPoints">setPoints</a></li><li data-type='method'><a href="UserBuilder.html#setPrevTransactions">setPrevTransactions</a></li><li data-type='method'><a href="UserBuilder.html#setUserFullName">setUserFullName</a></li><li data-type='method'><a href="UserBuilder.html#setUserType">setUserType</a></li></ul></li><li><a href="Users.html">Users</a><ul class='methods'><li data-type='method'><a href="Users.html#.deleteUserById">deleteUserById</a></li><li data-type='method'><a href="Users.html#.getAllMembers">getAllMembers</a></li><li data-type='method'><a href="Users.html#.getUserById">getUserById</a></li><li data-type='method'><a href="Users.html#.moveToActiveTransactions">moveToActiveTransactions</a></li><li data-type='method'><a href="Users.html#.moveToPrevTransactions">moveToPrevTransactions</a></li><li data-type='method'><a href="Users.html#.updateUserById">updateUserById</a></li></ul></li><li><a href="booksDecorator.html">booksDecorator</a><ul class='methods'><li data-type='method'><a href="booksDecorator.html#.addTransaction">addTransaction</a></li><li data-type='method'><a href="booksDecorator.html#.deleteTransaction">deleteTransaction</a></li><li data-type='method'><a href="booksDecorator.html#.getAllTransactions">getAllTransactions</a></li><li data-type='method'><a href="booksDecorator.html#.isAdmin">isAdmin</a></li><li data-type='method'><a href="booksDecorator.html#.updateTransaction">updateTransaction</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-Book.html">Book</a></li><li><a href="module-BookCategory.html">BookCategory</a></li><li><a href="module-BookTransaction.html">BookTransaction</a></li><li><a href="module-User.html">User</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">books.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import express from "express";
+import Book from "../models/Book.js";
+import BookCategory from "../models/BookCategory.js";
+
+const router = express.Router();
+
+/**
+ * @class Books
+ * @description Clase que maneja las rutas de operaciones relacionadas con los libros.
+ */
+
+/**
+ * Obtiene todos los libros en la base de datos.
+ * @function getAllBooks
+ * @memberof Books
+ * @route GET /api/books/allbooks
+ * @group Books - Operaciones relacionadas con libros
+ * @returns {Object} Objeto JSON que contiene todos los libros.
+ */
+router.get("/allbooks", async (req, res) => {
+    try {
+        const books = await Book.find({}).populate("transactions").sort({ _id: -1 });
+        res.status(200).json(books);
+    } catch (err) {
+        res.status(504).json(err);
+    }
+});
+
+/**
+ * Obtiene un libro por su ID.
+ * @function getBookById
+ * @memberof Books
+ * @route GET /api/books/getbook/:id
+ * @group Books - Operaciones relacionadas con libros
+ * @param {Object} req.params - Parámetros de la solicitud HTTP.
+ * @property {string} req.params.id - El ID del libro.
+ * @returns {Object} Objeto JSON que representa el libro.
+ */
+router.get("/getbook/:id", async (req, res) => {
+    try {
+        const book = await Book.findById(req.params.id).populate("transactions");
+        res.status(200).json(book);
+    } catch (err) {
+        res.status(500).json(err);
+    }
+});
+
+/**
+ * Obtiene libros por nombre de categoría.
+ * @function getBooksByCategory
+ * @memberof Books
+ * @route GET /api/books
+ * @group Books - Operaciones relacionadas con libros
+ * @param {Object} req.query - Consulta de la solicitud HTTP.
+ * @property {string} req.query.category - El nombre de la categoría.
+ * @returns {Object} Objeto JSON que contiene los libros de la categoría.
+ */
+router.get("/", async (req, res) => {
+    const category = req.query.category;
+    try {
+        const books = await BookCategory.findOne({ categoryName: category }).populate("books");
+        res.status(200).json(books);
+    } catch (err) {
+        res.status(504).json(err);
+    }
+});
+
+/**
+ * Añade un nuevo libro.
+ * @function addBook
+ * @memberof Books
+ * @route POST /api/books/addbook
+ * @group Books - Operaciones relacionadas con libros
+ * @param {Object} req.body - Cuerpo de la solicitud HTTP.
+ * @property {boolean} req.body.isAdmin - Indica si el usuario es un administrador.
+ * @property {string} req.body.bookName - El nombre del libro.
+ * @property {string} [req.body.alternateTitle] - Un título alternativo para el libro.
+ * @property {string} req.body.author - El autor del libro.
+ * @property {number} req.body.bookCountAvailable - El número de copias disponibles del libro.
+ * @property {string} [req.body.language] - El idioma en el que está escrito el libro.
+ * @property {string} [req.body.publisher] - La editorial del libro.
+ * @property {string} [req.body.bookStatus] - El estado del libro.
+ * @property {mongoose.Types.ObjectId[]} req.body.categories - Las categorías a las que pertenece el libro.
+ * @returns {Object} Objeto JSON que representa el libro añadido.
+ */
+router.post("/addbook", async (req, res) => {
+    if (req.body.isAdmin) {
+        try {
+            const newbook = await new Book({
+                bookName: req.body.bookName,
+                alternateTitle: req.body.alternateTitle,
+                author: req.body.author,
+                bookCountAvailable: req.body.bookCountAvailable,
+                language: req.body.language,
+                publisher: req.body.publisher,
+                bookStatus: req.body.bookStatus,
+                categories: req.body.categories
+            });
+            const book = await newbook.save();
+            await BookCategory.updateMany({ '_id': book.categories }, { $push: { books: book._id } });
+            res.status(200).json(book);
+        } catch (err) {
+            res.status(504).json(err);
+        }
+    } else {
+        res.status(403).json("You don't have permission to add a book!");
+    }
+});
+
+/**
+ * Actualiza un libro por su ID.
+ * @function updateBook
+ * @memberof Books
+ * @route PUT /api/books/updatebook/:id
+ * @group Books - Operaciones relacionadas con libros
+ * @param {Object} req.body - Cuerpo de la solicitud HTTP.
+ * @property {boolean} req.body.isAdmin - Indica si el usuario es un administrador.
+ * @property {string} req.params.id - El ID del libro a actualizar.
+ * @returns {string} Mensaje que indica que los detalles del libro se actualizaron correctamente.
+ */
+router.put("/updatebook/:id", async (req, res) => {
+    if (req.body.isAdmin) {
+        try {
+            await Book.findByIdAndUpdate(req.params.id, {
+                $set: req.body,
+            });
+            res.status(200).json("Book details updated successfully");
+        } catch (err) {
+            res.status(504).json(err);
+        }
+    } else {
+        res.status(403).json("You don't have permission to update a book!");
+    }
+});
+
+/**
+ * Elimina un libro por su ID.
+ * @function removeBook
+ * @memberof Books
+ * @route DELETE /api/books/removebook/:id
+ * @group Books - Operaciones relacionadas con libros
+ * @param {Object} req.body - Cuerpo de la solicitud HTTP.
+ * @property {boolean} req.body.isAdmin - Indica si el usuario es un administrador.
+ * @property {string} req.params.id - El ID del libro a eliminar.
+ * @returns {string} Mensaje que indica que el libro se eliminó correctamente.
+ */
+router.delete("/removebook/:id", async (req, res) => {
+    if (req.body.isAdmin) {
+        try {
+            const _id = req.params.id;
+            const book = await Book.findOne({ _id });
+            await book.remove();
+            await BookCategory.updateMany({ '_id': book.categories }, { $pull: { books: book._id } });
+            res.status(200).json("Book has been deleted");
+        } catch (err) {
+            res.status(504).json(err);
+        }
+    } else {
+        res.status(403).json("You don't have permission to delete a book!");
+    }
+});
+
+export default router;</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.3</a> on Fri May 31 2024 21:01:27 GMT-0600 (hora estándar central) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
