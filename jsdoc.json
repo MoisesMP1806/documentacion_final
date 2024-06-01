@@ -12,6 +12,7 @@
     "opts": {
         "recurse": "true",
         "destination": "./documentacion",
-        "template": "node_modules/docdash"
+        "template": "node_modules/docdash",
+        "readme": "./README.md"
     }
 }
